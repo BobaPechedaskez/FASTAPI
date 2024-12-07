@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weebs"
+version = "1"
+description = ""
+authors = ["BobaPechedaskez <kirun2000k@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+uvicorn = {extras = ["standart"], version = "^0.32.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
